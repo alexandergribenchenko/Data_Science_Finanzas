@@ -9,7 +9,7 @@
 
 Cálculo de tasas de intres mensual y diaria a partir de la taza de interes anual:
 ```python
-TEA = (1 + TEA)^(1/1) - 1  
-TEM = (1 + TEA)^(1/12) - 1  
-TED = (1 + TEA)^(1/365) - 1
+TEA = [(1 + TEA/100)^(1/1) - 1 ] * 100
+TEM = [(1 + TEA/100)^(1/12) - 1] * 100 
+TED = [(1 + TEA/100)^(1/365) - 1] *100
 ```
