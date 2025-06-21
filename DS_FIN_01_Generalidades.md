@@ -2,7 +2,7 @@
 
 # 01. Créditos
 
-# 01. Definiciín de tazas de interés
+# 01. Definición de tazas de interés
 - TEA (Tasa efectiva anual): mas conocida enlos bancos como E.A. de efectivo anual.
 - TEM (Tasa efectiva mensual): mas conocida en los bancos como M.V. de mes vencido. Es lo mismo que TEM, pero con el matiz de “vencido”.
 - TED (Tasa efectiva diaria):
