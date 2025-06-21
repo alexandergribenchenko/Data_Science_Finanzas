@@ -14,4 +14,10 @@ Cálculo de tasas de intres mensual y diaria a partir de la taza de interes anua
 %TED = [(1 + %TEA/100)^(1/365) - 1] * 100
 ```
 
-Cálculo de tasas de intres mensual y diaria a partir de la taza de interes anual:
+Cálculo de la tasa de intres anual a partir de la tazas de interes diaria y mensual:
+```python
+%TEA = [(1 + %TEA/100)^1 - 1 ] * 100
+%TEM = [(1 + %TEA/100)^12 - 1] * 100 
+%TED = [(1 + %TEA/100)^365 - 1] * 100
+```
+
