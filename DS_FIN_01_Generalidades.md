@@ -8,6 +8,8 @@
 - TED (Tasa efectiva diaria):
 
 Cálculo de tasas de intres mensual y diaria a partir de la taza de interes anual:
-$$ TEA = \left(1+TEA\right)^{1/1}-1$$
-$$ TEM = \left(1+TEA\right)^{1/12}-1$$
-$$ TED = \left(1+TEA\right)^{1/365}-1$$
+```python
+TEA = (1 + TEA)^(1/1) - 1  
+TEM = (1 + TEA)^(1/12) - 1  
+TED = (1 + TEA)^(1/365) - 1
+```
